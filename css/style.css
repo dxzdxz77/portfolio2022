@@ -1,0 +1,234 @@
+/*********************nav_pop****************************/
+#nav_pop{
+    position: fixed;
+    z-index: 9999999999999;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000;
+    display: none
+}
+.navpop_inner{
+    padding-top: 250px;
+}
+.nav_list{
+    color: #c8e5e8;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+.nav_list li{
+    margin-bottom: 20px;
+}
+.nav_list a{
+    padding: 10px 30px;
+}
+
+
+/*********************header****************************/
+#header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#header .nav_btn{
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    z-index: 98;
+    cursor: pointer;
+    padding: 20px;
+    box-sizing: border-box;
+}
+/*
+#header .nav_btn::before{
+    content: 'MENU';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 70px;
+    color: #fff;
+    font-weight: 600;
+}
+#header .nav_btn:hover::before{
+    content: 'MEN33U';
+}
+#header .nav_btn .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}*/
+
+.txt_inner span{
+    color: #fff;
+    font-weight: 600;
+}
+.txt_inner .open{
+    display: none;
+}
+#header .nav_btn:hover .txt_inner .open{
+    display: block;
+}
+#header .nav_btn:hover .txt_inner .menu{
+    display: none;
+}
+.line_inner{
+    float: right;
+    transform: translateY(-125%);
+}
+.line_inner span{
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+}
+.line_inner span:nth-child(1){
+    margin-bottom: 10px;
+}
+
+/*********************visual****************************/
+#visual{
+    background: url(../images/main/visual_bg.jpg) no-repeat center;
+    padding: 385px 0;
+    text-align: center;
+    position: relative;
+}
+#visual p{
+    font-family: 'NanumSquare', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: -2px;
+    color: #fff;
+    margin-bottom: 28px;
+}
+#visual img{
+    max-width: 100%;
+}
+
+/*********************profile****************************/
+#profile_wrap{
+    background: url(../images/main/profile_bg.jpg) no-repeat center;
+    padding: 80px 0;
+}
+.profile{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.profile img.creative{
+    padding: 10px 0;
+}
+.profile_box{
+    background-color: #f7fffe;
+    border-radius: 40px;
+    max-width: 730px;
+    padding: 35px 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.profile_box p{
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+.profile_box p::before{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    display: block;
+    content: '';
+    width: 80%;
+    height: 1px;
+    background-color: #03080f;
+}
+.profile_box p::after{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    display: block;
+    content: '';
+    width: 37%;
+    height: 2px;
+    background-color: #03080f;
+}
+.profile_box .profile_txt{
+    text-align: center;
+    padding-top: 35px;
+    line-height: 2rem;
+}
+.profile_txt .profile1{
+    vertical-align: top;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -3px;
+    color: #fff;
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    background-color: #c8e5e8;
+    margin-right: 50px;
+}
+.profile_txt .profile1 li{
+    text-align: center;
+    line-height: 165px;
+}
+.profile_txt .profile2{
+    vertical-align: top;
+    text-align: left;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-right: 30px;
+}
+.profile_txt .profile3{
+    text-align: left;
+    display: inline-block;
+    letter-spacing: -1px;
+}
+.profile_go{
+    display: block;
+    background-color: #00010a;
+    max-width: 230px;
+    height: 47px;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+.profile_go span{
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+}
+.profile_go b{
+    color: #c8e5e8;
+    font-weight: 500;
+}
+.profile_go img{
+    max-width: 100%;
+    margin-left: 10px;
+    transform: translateY(-2px);
+}
+/*********************gallery****************************/
+#gallery{
+    padding: 80px 0;
+    background: url(../images/main/gallery_bg.jpg) no-repeat center;
+    text-align: center;
+}
+#gallery img{
+    max-width: 100%;
+}
+/*********************footer****************************/
