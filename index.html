@@ -6,11 +6,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
 
 <title>웹디자이너 박나현 포트폴리오</title>
-  <!--[if lt IE 9]>
-      <script src="js/html5.js"></script>
-   <![endif]-->
+
+<link href="js/slick/slick.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/magnific-popup.css"><!-- 팝업화면 스타일 바꿀거면 지우고 화면에 뜨는 클래명으로 직접 스타일 넣으면 됨-->
 <link href="css/common.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
+
+<script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/jquery-migrate-3.0.0.js"></script>
+<!--슬릭-->
+<script src="js/slick/slick.js" type="text/javascript"></script>
+<!-- 시간차로 올라옴 -->
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<!-- Magnific Popup -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<!-- Main JS (Do not remove) -->
+<script src="js/style.js" type="text/javascript"></script>
 
 
 </head>
@@ -20,11 +34,13 @@
   <header id="header">
     <!--nav pop-->
     <div id="nav_pop">
+      <button class="nav_close">닫기</button></h1>
       <div class="navpop_inner">
         <ul class="nav_list">
           <li><a href="#">WEB DESIGN</a></li>
           <li><a href="#">DESIGN GALLERY</a></li>
           <li><a href="#">BRAND IDENTITY</a></li>
+          <li><a href="#">PRINTING</a></li>
           <li><a href="#">GRAPHIC</a></li>
         </ul>
       </div>
@@ -57,7 +73,7 @@
         <section id="profile_wrap">
             <div class="profile">
               <img src="images/main/profile.png"> 
-              <img src="images/main/profile_tit2.png" alt="always new and creative" class="creative">
+              <img src="images/main/profile_tit.png" alt="always new and creative" class="creative">
             </div>
             <div class="profile_box">
               <p>매일 새로운 아침을 보며 새로운 눈으로 <b>새롭게 생각하는 디자이너입니다.</b></p>
@@ -88,9 +104,72 @@
         </section>
         <!--//profile-->
 
+        <!--WEB DESIGN-->
+        <section id="webdesign_wrap">
+          <img class="web_tit" src="images/main/web_design_tit.png" alt="웹 디자인">
+          <!--slide-->
+          <div id="web_slide">
+            <div class="web_item_box">
+              <div class="web_item">
+                <img src="images/main/cambus.jpg">
+              </div>
+            </div>
+            <div class="web_item_box">
+              <div class="web_item">
+                <img src="images/main/petel.jpg">
+              </div>
+            </div>
+            <div class="web_item_box">
+              <div class="web_item">
+                <img src="images/main/discovery.jpg">
+              </div>
+            </div>
+            <div class="web_item_box">
+              <div class="web_item">
+                <img src="images/main/star.jpg">
+              </div>
+            </div>
+          </div>
+          <!--//slide-->
+        </section>
+        <!--//WEB DESIGN-->
+
         <!--DESIGN GALLERY-->
         <section id="gallery">
           <img src="images/main/design_gallery.png" alt="디자인 갤러리">
+          <!--gallery-->
+          <section id="fh5co-work" data-section="portfolio">
+            <div class="container">
+              <div class="row row-bottom-padded-sm">
+                <div class="col-md-4 col-sm-6 col-xxs-12">
+                  <a href="images/main/circle.png" class="fh5co-project-item image-popup to-animate">	
+                    <img src="images/main/circle.png" alt="Image" class="img-responsive">
+                  </a>
+                </div>	
+                <div class="col-md-4 col-sm-6 col-xxs-12">
+                  <a href="images/main/circle.png" class="fh5co-project-item image-popup to-animate">	
+                    <img src="images/main/circle.png" alt="Image" class="img-responsive">
+                  </a>
+                </div>				
+                <div class="col-md-4 col-sm-6 col-xxs-12">
+                  <a href="images/main/circle.png" class="fh5co-project-item image-popup to-animate">	
+                    <img src="images/main/circle.png" alt="Image" class="img-responsive">
+                  </a>
+                </div>	
+                <div class="col-md-4 col-sm-6 col-xxs-12">
+                  <a href="images/main/circle.png" class="fh5co-project-item image-popup to-animate">	
+                    <img src="images/main/circle.png" alt="Image" class="img-responsive">
+                  </a>
+                </div>	
+                <div class="col-md-4 col-sm-6 col-xxs-12">
+                  <a href="images/main/circle.png" class="fh5co-project-item image-popup to-animate">	
+                    <img src="images/main/circle.png" alt="Image" class="img-responsive">
+                  </a>
+                </div>	
+              </div>
+            </div>
+          </section>
+          <!--//gallery-->
         </section>
         <!--//DESIGN GALLERY-->
       </div>
@@ -99,7 +178,40 @@
     </div>
     <!--//main_wrap-->
   </main>
-  <footer id="footer"></footer>
+  <footer id="footer">
+    <div class="contact_bg">
+      <ul class="contact_me">
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+        <li>CONTACT ME</li>
+      </ul>
+    </div>
+    <div class="contact_wrap">
+      <p class="name">PARK NA HYEON</p>
+      <span class="end">Thank you for watching until the end.</span>
+      <div class="mebox">CONTACT ME</div>
+      <p class="phon">010-5092-3366</p>
+      <p class="email">dxzdxz77@daum.net</p>
+    </div>
+    <div class="footline">본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</div>
+    <div class="c2022">ⓒ2022</div>
+  </footer>
 </div>
 </body>
 
