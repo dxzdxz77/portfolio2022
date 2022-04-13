@@ -14,6 +14,7 @@
 <link href="css/style.css" rel="stylesheet" type="text/css">
 
 <script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+<script src="http://code.jquery.com/jquery-migrate-3.0.0.js"></script>
 <!--슬릭-->
 <script src="js/slick/slick.js" type="text/javascript"></script>
 <!-- 시간차로 올라옴 -->
@@ -75,7 +76,8 @@
               <img src="images/main/profile_tit.png" alt="always new and creative" class="creative">
             </div>
             <div class="profile_box">
-              <p>매일 새로운 아침을 보며 새로운 눈으로 <b>새롭게 생각하는 디자이너입니다.</b></p>
+              <p class="pro_pc">매일 새로운 아침을 보며 새로운 눈으로 <b>새롭게 생각하는 디자이너입니다.</b></p>
+              <p class="pro_mo">매일 새로운 아침을 보며 새로운 눈으로<br><b>새롭게 생각하는 디자이너입니다.</b></p>
               <div class="profile_txt">
                 <ul class="profile1">
                   <li>PROFILE</li>
@@ -108,25 +110,104 @@
           <img class="web_tit" src="images/main/web_design_tit.png" alt="웹 디자인">
           <!--slide-->
           <div id="web_slide">
+            <!-- controller --
+            <div class="controller">
+              <button class="slick-prev slick-arrow" aria-label="Previous" type="button" style="">Previous</button>
+              <button class="slick-next slick-arrow" aria-label="Next" type="button" style="">Next</button>
+          </div>
+          !-- controller -->
             <div class="web_item_box">
               <div class="web_item">
-                <img src="images/main/cambus.jpg">
+                <img src="images/main/cambus.jpg" alt="캠버스 독서실 홈페이지">
               </div>
+              <div class="slide_box">
+                <dl class="box_txt1">
+                    <dt>캠버스 독서실 홈페이지 리뉴얼</dt>
+                    <dd><strong>MAIN COLOR</strong><i></i><i></i><i></i><i></i><i></i></dd>
+                    <dd><strong>VIEWPORT</strong>반응형 / 웹표준 / 웹접근성</dd>
+                    <dd><strong>PROGRAM</strong>html / css / jquery</dd>
+                    <dd>리뉴얼 작업 진행하였습니다.<br>
+                      리뉴얼 작업 진행하였습니다.리뉴얼 작업 진행하였습니다.리뉴얼 작업 진행하였습니다.
+                      리뉴얼 작업 진행하였습니다.리뉴얼 작업 진행하였습니다.리뉴얼 작업 진행하였습니다.리뉴얼 작업 진행하였습니다.</dd>
+                </dl>
+                <ul>
+                    <li>
+                        <a href="https://www.cambusstudy.co.kr" target="_blank">메인페이지</a>
+                    </li>
+                    <li>
+                        <a href="https://www.cambusstudy.co.kr/info/about" target="_blank">서브페이지</a>
+                    </li>
+                </ul>
             </div>
-            <div class="web_item_box">
-              <div class="web_item">
-                <img src="images/main/petel.jpg">
-              </div>
             </div>
+            <!--//web_item-->
             <div class="web_item_box">
               <div class="web_item">
-                <img src="images/main/discovery.jpg">
+                <img src="images/main/petel.jpg" alt="펫텔 홈페이지">
               </div>
+              <div class="slide_box">
+                <dl class="box_txt2">
+                    <dt>PETEL 홈페이지 리뉴얼</dt>
+                    <dd><strong>MAIN COLOR</strong><i></i><i></i><i></i><i></i></dd>
+                    <dd><strong>VIEWPORT</strong>반응형 / 웹표준 / 웹접근성</dd>
+                    <dd><strong>PROGRAM</strong>html / css / jquery</dd>
+                    <dd>리뉴얼 작업 진행하였습니다.<br>리뉴얼 작업 진행하였습니다.<br>리뉴얼 작업 진행하였습니다.<br>리뉴얼 작업 진행하였습니다.<br>리뉴얼 작업 진행하였습니다.</dd>
+                </dl>
+                <ul>
+                    <li>
+                        <a href="https://dxzdxz77.github.io/proj3" target="_blank">메인페이지</a>
+                    </li>
+                    <li>
+                        <a href="https://dxzdxz77.github.io/proj3/sub1.html" target="_blank">서브페이지</a>
+                    </li>
+                </ul>
             </div>
+            </div>
+            <!--//web_item-->
             <div class="web_item_box">
               <div class="web_item">
-                <img src="images/main/star.jpg">
+                <img src="images/main/discovery.jpg" alt="디스커버리 홈페이지">
               </div>
+              <div class="slide_box">
+                <dl class="box_txt3">
+                    <dt>DISCOVERY 홈페이지 리뉴얼</dt>
+                    <dd><strong>MAIN COLOR</strong><i></i><i></i><i></i><i></i></dd>
+                    <dd><strong>VIEWPORT</strong>웹표준 / 웹접근성</dd>
+                    <dd><strong>PROGRAM</strong>html / css / jquery</dd>
+                    <dd>리뉴얼 작업 진행하였습니다.<br>리뉴얼 작업 진행하였습니다.<br>리뉴얼 작업 진행하였습니다.<br>리뉴얼 작업 진행하였습니다.<br>리뉴얼 작업 진행하였습니다.</dd>
+                </dl>
+                <ul>
+                    <li>
+                        <a href="https://dxzdxz77.github.io/proj2" target="_blank">메인페이지</a>
+                    </li>
+                    <li>
+                        <a href="https://dxzdxz77.github.io/proj2/sub1.html" target="_blank">서브페이지</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+            <!--//web_item-->
+            <div class="web_item_box">
+              <div class="web_item">
+                <img src="images/main/star.jpg" alt="스타피부과 홈페이지">
+              </div>
+              <div class="slide_box">
+                <dl class="box_txt4">
+                    <dt>STAR 피부과 홈페이지 리뉴얼</dt>
+                    <dd><strong>MAIN COLOR</strong><i></i><i></i><i></i></dd>
+                    <dd><strong>VIEWPORT</strong>웹표준 / 웹접근성</dd>
+                    <dd><strong>PROGRAM</strong>html / css / jquery</dd>
+                    <dd>리뉴얼 작업 진행하였습니다.<br>리뉴얼 작업 진행하였습니다.리뉴얼 작업 진행하였습니다.리뉴얼 작업 진행하였습니다.리뉴얼 작업 진행하였습니다.리뉴얼 작업 진행하였습니다.리뉴얼 작업 진행하였습니다.리뉴얼 작업 진행하였습니다.리뉴얼 작업 진행하였습니다.</dd>
+                </dl>
+                <ul>
+                    <li>
+                        <a href="https://dxzdxz77.github.io/proj1" target="_blank">메인페이지</a>
+                    </li>
+                    <!--<li>
+                        <a href="#" target="_blank">서브페이지</a>
+                    </li>-->
+                </ul>
+            </div>
             </div>
           </div>
           <!--//slide-->
@@ -135,29 +216,29 @@
 
         <!--DESIGN GALLERY-->
         <section id="gallery">
-          <img src="images/main/design_gallery.png" alt="디자인 갤러리">
+          <img class="gallery_tit" src="images/main/design_gallery.png" alt="디자인 갤러리">
           <!--gallery-->
           <section id="fh5co-work" data-section="portfolio">
             <div class="container">
               <div class="row row-bottom-padded-sm">
                 <div class="col-md-4 col-sm-6 col-xxs-12">
-                  <a href="images/main/circle.png" class="fh5co-project-item image-popup to-animate">	
-                    <img src="images/main/circle.png" alt="Image" class="img-responsive">
+                  <a href="images/main/mamsalim.jpg" class="fh5co-project-item image-popup to-animate">	
+                    <img src="images/main/mamsalim.png" alt="Image" class="img-responsive">
                   </a>
                 </div>	
                 <div class="col-md-4 col-sm-6 col-xxs-12">
-                  <a href="images/main/circle.png" class="fh5co-project-item image-popup to-animate">	
-                    <img src="images/main/circle.png" alt="Image" class="img-responsive">
+                  <a href="images/main/interview.jpg" class="fh5co-project-item image-popup to-animate">	
+                    <img src="images/main/interview.png" alt="Image" class="img-responsive">
                   </a>
                 </div>				
                 <div class="col-md-4 col-sm-6 col-xxs-12">
-                  <a href="images/main/circle.png" class="fh5co-project-item image-popup to-animate">	
-                    <img src="images/main/circle.png" alt="Image" class="img-responsive">
+                  <a href="images/main/teachon_coupon.jpg" class="fh5co-project-item image-popup to-animate">	
+                    <img src="images/main/teachon_coupon.png" alt="Image" class="img-responsive">
                   </a>
                 </div>	
                 <div class="col-md-4 col-sm-6 col-xxs-12">
-                  <a href="images/main/circle.png" class="fh5co-project-item image-popup to-animate">	
-                    <img src="images/main/circle.png" alt="Image" class="img-responsive">
+                  <a href="images/main/teachon_christmas.jpg" class="fh5co-project-item image-popup to-animate">	
+                    <img src="images/main/teachon_christmas.png" alt="Image" class="img-responsive">
                   </a>
                 </div>	
                 <div class="col-md-4 col-sm-6 col-xxs-12">
@@ -180,11 +261,6 @@
   <footer id="footer">
     <div class="contact_bg">
       <ul class="contact_me">
-        <li>CONTACT ME</li>
-        <li>CONTACT ME</li>
-        <li>CONTACT ME</li>
-        <li>CONTACT ME</li>
-        <li>CONTACT ME</li>
         <li>CONTACT ME</li>
         <li>CONTACT ME</li>
         <li>CONTACT ME</li>
