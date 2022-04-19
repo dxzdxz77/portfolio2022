@@ -7,6 +7,14 @@ $('#nav_pop .nav_close').click(function(){
    $('#nav_pop').fadeOut();
 })//네비 팝업
 
+$('#sub_header .nav_btn').click(function(){
+  $('#nav_pop').fadeIn();
+})
+
+$('#nav_pop .nav_close').click(function(){
+ $('#nav_pop').fadeOut();
+})//서브 네비 팝업
+
 $('#web_slide').slick({
   infinite: true,
   //autoplay : true,
