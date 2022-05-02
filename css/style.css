@@ -763,7 +763,7 @@ opacity: .7;
     #header .nav_btn {
         width: 60px;
         top: 20px;
-        right: 30px;
+        right: 20px;
         padding: 20px;
     }
     #header .txt_inner{display: none;}
@@ -848,9 +848,9 @@ opacity: .7;
 }
 @media all and (max-width: 450px){
     /*네비팝*/
-    .navpop_inner {
+    /*.navpop_inner {
         padding-top: 90px;
-    }
+    }*/
     #nav_pop .nav_close {
         top: 0px;
         right: 10px;
@@ -870,7 +870,7 @@ opacity: .7;
         right: 32px;
     }
     .nav_list {
-        font-size: 1.125rem;
+        font-size: 2rem;
         letter-spacing: -1px;
     }
     .nav_list li {
@@ -930,7 +930,8 @@ opacity: .7;
     #header .nav_btn {
         width: 40px;
         height: 40px;
-        right: 20px;
+        right: 10px;
+        padding: 10px;
     }
     /*프로필*/
     .profile_box {

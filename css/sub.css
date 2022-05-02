@@ -223,7 +223,26 @@ text-decoration: none !important;
     }
 }
 
+@media all and (max-width:1024px){
+    /*네비팝*/
+    #sub_header .navpop_inner {
+    padding-top: 200px;
+    }
+    #sub_header .nav_list {
+    font-size: 2.5rem;
+    }
+}
+
 @media all and (max-width:600px){
+        /*네비팝*/
+    #sub_header .navpop_inner {
+    padding-top: 150px;
+    }
+    #sub_header #nav_pop .nav_close {
+    top: 10px;
+    right: 30px;
+    }
+    /**/
     #sub_gallery #fh5co-work .fh5co-project-item .fh5co-text {
         padding: 5px 15px;
     }
@@ -241,6 +260,33 @@ text-decoration: none !important;
 }
 
 @media all and (max-width:400px){
+    /*네비팝*/
+    #sub_header #nav_pop .nav_close {
+        top: 0px;
+        right: 10px;
+        width: 70px;
+        height: 70px;
+    }
+    #sub_header #nav_pop .nav_close:before {
+        width: 2px;
+        height: 25px;
+        top: 20px;
+        right: 32px;
+    }
+    #sub_header #nav_pop .nav_close:after {
+        width: 2px;
+        height: 25px;
+        top: 20px;
+        right: 32px;
+    }
+    #sub_header .nav_list {
+        font-size: 2rem;
+        letter-spacing: -1px;
+    }
+    #sub_header .nav_list li {
+        margin-bottom: 10px;
+    }
+    /**/
     #sub_header {
         height: 40px;
     }
