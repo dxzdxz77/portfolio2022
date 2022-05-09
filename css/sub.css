@@ -70,7 +70,7 @@
 #sub_header .header_top::after{display: block; content: ''; clear: both;}
 #sub_header .header_top .logo{
     font-size: 22px;
-    font-weight: 900;
+    font-weight: 700;
     letter-spacing: -1px;
     color: #01010B;
     line-height: 46px;
@@ -105,18 +105,24 @@
 /*********************visual****************************/
 #sub_visual{
     background: url(../images/main/visual_bg.jpg) no-repeat center;
-    padding: 150px 30px;
+    padding: 50px 30px;
     text-align: center;
     position: relative;
 }
-#sub_visual img{
+/*#sub_visual img{
     max-width: 100%;
+}*/
+#sub_visual span{
+    color: #DCEFEE;
+    font-size: 30px;
+    letter-spacing: -1px;
+    font-weight: 500;
 }
 
 /****************************design_gallery*********************************/
 .sub_gallery{
     background-color: #DCEFEE;
-    padding: 50px 0;
+    padding: 80px 0;
 }
 /***********sub_gallery***********/
 #sub_gallery .container{
@@ -234,7 +240,10 @@ text-decoration: none !important;
 }
 
 @media all and (max-width:600px){
-        /*네비팝*/
+    #sub_header {
+    height: 35px;
+}
+    /*네비팝*/
     #sub_header .navpop_inner {
     padding-top: 150px;
     }
@@ -242,7 +251,25 @@ text-decoration: none !important;
     top: 10px;
     right: 30px;
     }
+    /*네비*/
+    #sub_header .header_top .logo {
+        font-size: 16px;
+        line-height: 35px;
+    }
+    #sub_header .header_top .logo a {
+        padding: 5px 20px;
+    }
+    #sub_header .header_top .nav_btn {
+        height: 35px;
+        padding: 5px 10px;
+    }
+    #sub_header .header_top .nav_btn .line_inner {
+        transform: translateY(6px);
+    }
     /**/
+    .sub_gallery {
+        padding: 50px 0;
+    }
     #sub_gallery #fh5co-work .fh5co-project-item .fh5co-text {
         padding: 5px 15px;
     }
@@ -255,7 +282,11 @@ text-decoration: none !important;
         vertical-align: 5px
     }
     #sub_visual {
-        padding: 115px 30px;
+        padding: 20px 30px;
+    }
+    #sub_visual span {
+        font-size: 18px;
+        letter-spacing: 0px;
     }
 }
 
@@ -287,29 +318,6 @@ text-decoration: none !important;
         margin-bottom: 10px;
     }
     /**/
-    #sub_header {
-        height: 40px;
-    }
-    #sub_header .header_top .logo {
-        font-size: 18px;
-        line-height: 37px;
-    }
-    #sub_header .header_top .logo a {
-        padding: 0px 20px;
-    }
-    #sub_header .header_top .nav_btn {
-        height: 40px;
-        padding: 10px;
-    }
-    #sub_header .header_top .nav_btn .line_inner {
-        transform: translateY(3px);
-    }
-    #sub_visual {
-        padding: 70px 30px;
-    }
-    #sub_visual img {
-        max-width: 67%;
-    }
     .sub_gallery {
         padding: 35px 0;
     }
